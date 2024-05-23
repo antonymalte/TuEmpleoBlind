@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6e8e8;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.ofertas{
+	display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px; 
+  font-size: 1.19rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.7rem;
+  text-align: center;
+}
+
+.primera_oferta, .segunda_oferta, .tercera_oferta, .cuarta_oferta, .quinta_oferta, .sexta_oferta{
+	background-color: white; 
+  padding: 1rem 1rem 0 0;
+  padding-left: 1rem;
+  border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
+}
+
+.estilo{
+	border: solid 3px #546789;
+  border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
+}
+
+button{
+  color: white;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+  border-radius: 3rem 0 3rem 0;
+	margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+	inline-size: 15rem;
+  cursor: pointer;
+  background: linear-gradient(90deg, rgba(73,104,150,1) 35%, rgba(40,66,140,1) 100%);
+}

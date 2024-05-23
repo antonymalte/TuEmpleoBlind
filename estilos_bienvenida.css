@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6e8e8;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.mensaje_bienvenida {
+  background-color: #4b6a96;
+  color: white;
+  text-align: center;
+  padding: 0.1rem 0.1rem;
+  border-radius: 0.5rem 0.5rem 2.5rem 2.5rem; 
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3{
+  margin-top: 0.3rem;
+}
+
+h2{
+  margin: 1rem;
+}
+
+a {
+  margin-top: 2rem;
+  display: inline-block; 
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.cont{
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  font-weight: bold;
+  padding-top: 1.6rem;
+  padding-bottom: 0.7rem;
+}
+
+.crear, .ya{
+  background-color: white; 
+  padding: 0rem 1rem 1rem 1rem;
+  border-radius: 0.5rem 0.5rem 2rem 2rem; 
+}
+
+.crear{
+  padding-right: 2rem;
+}
+
+.empleo {
+  background: linear-gradient(90deg, rgba(252,122,0,1) 35%, rgba(192,65,9,1) 100%);
+  color: white;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border-radius: 3rem 0 3rem 0;
+  font-size: 1.8rem;
+}
+
+.contratar {
+  background: linear-gradient(90deg, rgba(252,122,0,1) 35%, rgba(192,65,9,1) 100%);
+  color: white;
+  padding-top: 0.74rem;
+  padding-bottom: 0.7rem;
+  border-radius: 3rem 0 3rem 0;
+  font-size: 1.7rem;
+}
+
+.inicio_sesion {
+  max-width: 440px;
+  background: linear-gradient(90deg, rgba(73,104,150,1) 35%, rgba(40,66,140,1) 100%);
+  color: white;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border-radius: 3rem 0 3rem 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+p{
+  font-size: 2.50rem;
+  text-align: center;
+}

@@ -1,0 +1,92 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	background-color: #e9723f;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.sup{
+	background-color: white; 
+	border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
+	text-align: center;
+	font-size: 3rem;
+}
+
+.cont{
+	background-color: #fee0d8; 
+  padding: 1rem 1rem 0 0;
+  padding-left: 1rem;
+  border-radius: 3.6rem 3.6rem 3.6rem 3.6rem;
+	text-align: center;
+}
+
+.new{
+	color: white;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	border-radius: 3rem 0 3rem 0;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	font-size: 2.5rem;
+	font-weight: bold;
+	inline-size: 35rem;
+	cursor: pointer;
+	background: linear-gradient(90deg, rgba(73,104,150,1) 35%, rgba(40,66,140,1) 100%);
+}
+
+.pub{
+	background-color: white;
+  padding-left: 1rem;
+  border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
+	font-size: 3.5rem;
+}
+
+.ofertas{
+	display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px; 
+  font-size: 1.35rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.7rem;
+  text-align: center;
+}
+
+.primera_oferta, .segunda_oferta, .tercera_oferta, .cuarta_oferta, .quinta_oferta, .sexta_oferta{
+	background-color: white; 
+  padding: 1rem 1rem 0 0;
+  padding-left: 1rem;
+  border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
+}
+
+.estilo{
+	border: solid 3px #546789;
+  border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
+}
+
+.botones{
+	display: grid; 
+  grid-template-columns: repeat(2, 1fr); 
+	gap: 10px; 
+}
+
+.ver, .eliminar{
+	color: white;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+	margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+	inline-size: 10rem;
+  cursor: pointer;
+}
+
+.ver{
+	background-color: #26408b;
+}
+
+.eliminar{
+	background-color: #c0121f;
+}
